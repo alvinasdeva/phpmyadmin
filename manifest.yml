@@ -1,0 +1,8 @@
+applications:
+- buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  name: pdphpadmin
+  host: pdphpadmin
+  disk: 1024M                                                                                                         
+  domain: ng.bluemix.net
+  mem: 512M
+  instances: 1
